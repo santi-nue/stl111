@@ -1,5 +1,5 @@
 conda install nodejs
-# npm install express
+npm install express
 npm install cors
 npm install n8n
 export N8N_BASIC_AUTH_ACTIVE=true
