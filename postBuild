@@ -5,6 +5,7 @@ npm install n8n -g
 export N8N_BASIC_AUTH_ACTIVE=true
 export N8N_BASIC_AUTH_USER=admin
 export N8N_BASIC_AUTH_PASSWORD=1234
+export N8N_SECURE_COOKIE=false
 # enable nbserverproxy
 jupyter server extension enable --sys-prefix nbserverproxy
 # streamlit launches at startup
