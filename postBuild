@@ -1,0 +1,10 @@
+conda install nodejs
+npm install express
+npm install cors
+npm install n8n -g
+# enable nbserverproxy
+jupyter server extension enable --sys-prefix nbserverproxy
+# streamlit launches at startup
+mv node_call.py ${NB_PYTHON_PREFIX}/lib/python3.10/site-packages/
+# enable streamlit extension
+jupyter server extension enable --sys-prefix node_call
